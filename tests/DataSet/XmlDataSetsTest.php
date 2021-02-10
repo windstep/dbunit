@@ -8,14 +8,14 @@
  * file that was distributed with this source code.
  */
 
-use Windstep\DbUnit\Constraint\DataSetIsEqual;
-use Windstep\DbUnit\DataSet\DefaultDataSet;
-use Windstep\DbUnit\DataSet\DefaultTable;
-use Windstep\DbUnit\DataSet\DefaultTableMetadata;
-use Windstep\DbUnit\DataSet\FlatXmlDataSet;
-use Windstep\DbUnit\DataSet\MysqlXmlDataSet;
-use Windstep\DbUnit\DataSet\XmlDataSet;
-use Windstep\Framework\TestCase;
+use PHPUnit\DbUnit\Constraint\DataSetIsEqual;
+use PHPUnit\DbUnit\DataSet\DefaultDataSet;
+use PHPUnit\DbUnit\DataSet\DefaultTable;
+use PHPUnit\DbUnit\DataSet\DefaultTableMetadata;
+use PHPUnit\DbUnit\DataSet\FlatXmlDataSet;
+use PHPUnit\DbUnit\DataSet\MysqlXmlDataSet;
+use PHPUnit\DbUnit\DataSet\XmlDataSet;
+use PHPUnit\Framework\TestCase;
 
 class Extensions_Database_DataSet_XmlDataSetsTest extends TestCase
 {

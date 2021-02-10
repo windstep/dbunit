@@ -7,8 +7,8 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-use Windstep\DbUnit\Database\DefaultConnection;
-use Windstep\Framework\TestCase;
+use PHPUnit\DbUnit\Database\DefaultConnection;
+use PHPUnit\Framework\TestCase;
 
 class DefaultDatabaseConnectionTest extends TestCase
 {

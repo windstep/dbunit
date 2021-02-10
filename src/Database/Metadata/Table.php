@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\Database\Metadata;
+namespace PHPUnit\DbUnit\Database\Metadata;
 
-use Windstep\DbUnit\DataSet\DefaultTableMetadata;
+use PHPUnit\DbUnit\DataSet\DefaultTableMetadata;
 
 /**
  * This class loads a table metadata object with database metadata.

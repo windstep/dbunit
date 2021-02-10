@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit;
+namespace PHPUnit\DbUnit;
 
-use Windstep\DbUnit\Database\Connection;
+use PHPUnit\DbUnit\Database\Connection;
 
 /**
  * This is the default implementation of the database tester. It receives its

@@ -8,22 +8,22 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit;
+namespace PHPUnit\DbUnit;
 
 use PDO;
-use Windstep\DbUnit\Constraint\DataSetIsEqual;
-use Windstep\DbUnit\Constraint\TableIsEqual;
-use Windstep\DbUnit\Constraint\TableRowCount;
-use Windstep\DbUnit\Database\Connection;
-use Windstep\DbUnit\Database\DefaultConnection;
-use Windstep\DbUnit\DataSet\ArrayDataSet;
-use Windstep\DbUnit\DataSet\FlatXmlDataSet;
-use Windstep\DbUnit\DataSet\IDataSet;
-use Windstep\DbUnit\DataSet\ITable;
-use Windstep\DbUnit\DataSet\MysqlXmlDataSet;
-use Windstep\DbUnit\DataSet\XmlDataSet;
-use Windstep\DbUnit\Operation\Factory;
-use Windstep\DbUnit\Operation\Operation;
+use PHPUnit\DbUnit\Constraint\DataSetIsEqual;
+use PHPUnit\DbUnit\Constraint\TableIsEqual;
+use PHPUnit\DbUnit\Constraint\TableRowCount;
+use PHPUnit\DbUnit\Database\Connection;
+use PHPUnit\DbUnit\Database\DefaultConnection;
+use PHPUnit\DbUnit\DataSet\ArrayDataSet;
+use PHPUnit\DbUnit\DataSet\FlatXmlDataSet;
+use PHPUnit\DbUnit\DataSet\IDataSet;
+use PHPUnit\DbUnit\DataSet\ITable;
+use PHPUnit\DbUnit\DataSet\MysqlXmlDataSet;
+use PHPUnit\DbUnit\DataSet\XmlDataSet;
+use PHPUnit\DbUnit\Operation\Factory;
+use PHPUnit\DbUnit\Operation\Operation;
 
 trait TestCaseTrait
 {

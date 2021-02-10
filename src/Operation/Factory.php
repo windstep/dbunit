@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\Operation;
+namespace PHPUnit\DbUnit\Operation;
 
 /**
  * A class factory to easily return database operations.

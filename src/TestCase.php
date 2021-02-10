@@ -8,13 +8,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit;
+namespace PHPUnit\DbUnit;
 
 /**
  * A TestCase extension that provides functionality for testing and asserting
  * against a real database.
  */
-abstract class TestCase extends \Windstep\Framework\TestCase
+abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
     use TestCaseTrait;
 }

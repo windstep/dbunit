@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\DataSet\Specification;
+namespace PHPUnit\DbUnit\DataSet\Specification;
 
-use Windstep\DbUnit\DataSet\IDataSet;
+use PHPUnit\DbUnit\DataSet\IDataSet;
 
 /**
  * Provides an interface for creating data sets from data set spec strings.

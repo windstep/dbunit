@@ -8,13 +8,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\Database;
+namespace PHPUnit\DbUnit\Database;
 
 use PDO;
-use Windstep\DbUnit\Database\Metadata\AbstractMetadata;
-use Windstep\DbUnit\Database\Metadata\Metadata;
-use Windstep\DbUnit\DataSet\IDataSet;
-use Windstep\DbUnit\DataSet\QueryTable;
+use PHPUnit\DbUnit\Database\Metadata\AbstractMetadata;
+use PHPUnit\DbUnit\Database\Metadata\Metadata;
+use PHPUnit\DbUnit\DataSet\IDataSet;
+use PHPUnit\DbUnit\DataSet\QueryTable;
 
 /**
  * Provides a basic interface for communicating with a database.

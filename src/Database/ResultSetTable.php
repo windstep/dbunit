@@ -8,12 +8,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\Database;
+namespace PHPUnit\DbUnit\Database;
 
 use PDO;
 use PDOStatement;
-use Windstep\DbUnit\DataSet\AbstractTable;
-use Windstep\DbUnit\DataSet\DefaultTableMetadata;
+use PHPUnit\DbUnit\DataSet\AbstractTable;
+use PHPUnit\DbUnit\DataSet\DefaultTableMetadata;
 
 /**
  * Provides the functionality to represent a database result set as a DBUnit

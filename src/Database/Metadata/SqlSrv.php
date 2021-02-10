@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\Database\Metadata;
+namespace PHPUnit\DbUnit\Database\Metadata;
 
 use PDO;
 use PDOException;

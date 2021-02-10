@@ -8,11 +8,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\Constraint;
+namespace PHPUnit\DbUnit\Constraint;
 
-use Windstep\DbUnit\DataSet\ITable;
-use Windstep\DbUnit\InvalidArgumentException;
-use Windstep\Framework\Constraint\Constraint;
+use PHPUnit\DbUnit\DataSet\ITable;
+use PHPUnit\DbUnit\InvalidArgumentException;
+use PHPUnit\Framework\Constraint\Constraint;
 
 /**
  * Asserts whether or not two dbunit tables are equal.

@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\DataSet\Specification;
+namespace PHPUnit\DbUnit\DataSet\Specification;
 
-use Windstep\DbUnit\RuntimeException;
+use PHPUnit\DbUnit\RuntimeException;
 
 /**
  * Creates the appropriate DataSet Spec based on a given type.

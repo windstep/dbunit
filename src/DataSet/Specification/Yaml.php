@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\DataSet\Specification;
+namespace PHPUnit\DbUnit\DataSet\Specification;
 
-use Windstep\DbUnit\DataSet\YamlDataSet;
+use PHPUnit\DbUnit\DataSet\YamlDataSet;
 
 /**
  * Creates a YAML dataset based off of a spec string.

@@ -8,17 +8,17 @@
  * file that was distributed with this source code.
  */
 
-use Windstep\DbUnit\Database\Connection;
-use Windstep\DbUnit\Database\DefaultConnection;
-use Windstep\DbUnit\DataSet\DefaultDataSet;
-use Windstep\DbUnit\DataSet\DefaultTable;
-use Windstep\DbUnit\DataSet\DefaultTableMetadata;
-use Windstep\DbUnit\DataSet\FlatXmlDataSet;
-use Windstep\DbUnit\DataSet\ITable;
-use Windstep\DbUnit\DataSet\ITableMetadata;
-use Windstep\DbUnit\Operation\Exception as OperationException;
-use Windstep\DbUnit\Operation\RowBased;
-use Windstep\DbUnit\TestCase;
+use PHPUnit\DbUnit\Database\Connection;
+use PHPUnit\DbUnit\Database\DefaultConnection;
+use PHPUnit\DbUnit\DataSet\DefaultDataSet;
+use PHPUnit\DbUnit\DataSet\DefaultTable;
+use PHPUnit\DbUnit\DataSet\DefaultTableMetadata;
+use PHPUnit\DbUnit\DataSet\FlatXmlDataSet;
+use PHPUnit\DbUnit\DataSet\ITable;
+use PHPUnit\DbUnit\DataSet\ITableMetadata;
+use PHPUnit\DbUnit\Operation\Exception as OperationException;
+use PHPUnit\DbUnit\Operation\RowBased;
+use PHPUnit\DbUnit\TestCase;
 
 require_once \dirname(__DIR__) . DIRECTORY_SEPARATOR . '_files' . DIRECTORY_SEPARATOR . 'DatabaseTestUtility.php';
 

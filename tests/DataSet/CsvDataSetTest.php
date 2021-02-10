@@ -8,13 +8,13 @@
  * file that was distributed with this source code.
  */
 
-use Windstep\DbUnit\DataSet\CsvDataSet;
-use Windstep\DbUnit\DataSet\DefaultDataSet;
-use Windstep\DbUnit\DataSet\DefaultTable;
-use Windstep\DbUnit\DataSet\DefaultTableMetadata;
-use Windstep\DbUnit\TestCase;
+use PHPUnit\DbUnit\DataSet\CsvDataSet;
+use PHPUnit\DbUnit\DataSet\DefaultDataSet;
+use PHPUnit\DbUnit\DataSet\DefaultTable;
+use PHPUnit\DbUnit\DataSet\DefaultTableMetadata;
+use PHPUnit\DbUnit\TestCase;
 
-class Extensions_Database_DataSet_CsvDataSetTest extends \Windstep\Framework\TestCase
+class Extensions_Database_DataSet_CsvDataSetTest extends \PHPUnit\Framework\TestCase
 {
     protected $expectedDataSet;
 

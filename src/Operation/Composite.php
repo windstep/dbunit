@@ -8,11 +8,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\Operation;
+namespace PHPUnit\DbUnit\Operation;
 
-use Windstep\DbUnit\Database\Connection;
-use Windstep\DbUnit\DataSet\IDataSet;
-use Windstep\DbUnit\InvalidArgumentException;
+use PHPUnit\DbUnit\Database\Connection;
+use PHPUnit\DbUnit\DataSet\IDataSet;
+use PHPUnit\DbUnit\InvalidArgumentException;
 
 /**
  * This class facilitates combining database operations. To create a composite

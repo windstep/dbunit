@@ -8,12 +8,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\DataSet;
+namespace PHPUnit\DbUnit\DataSet;
 
-use Windstep\DbUnit\Database\Connection;
-use Windstep\DbUnit\Database\Table;
-use Windstep\DbUnit\Database\TableIterator;
-use Windstep\DbUnit\InvalidArgumentException;
+use PHPUnit\DbUnit\Database\Connection;
+use PHPUnit\DbUnit\Database\Table;
+use PHPUnit\DbUnit\Database\TableIterator;
+use PHPUnit\DbUnit\InvalidArgumentException;
 
 /**
  * Provides access to a database instance as a data set.

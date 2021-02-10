@@ -8,12 +8,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit;
+namespace PHPUnit\DbUnit;
 
-use Windstep\DbUnit\Database\Connection;
-use Windstep\DbUnit\DataSet\IDataSet;
-use Windstep\DbUnit\Operation\Factory;
-use Windstep\DbUnit\Operation\Operation;
+use PHPUnit\DbUnit\Database\Connection;
+use PHPUnit\DbUnit\DataSet\IDataSet;
+use PHPUnit\DbUnit\Operation\Factory;
+use PHPUnit\DbUnit\Operation\Operation;
 
 /**
  * Can be used as a foundation for new DatabaseTesters.

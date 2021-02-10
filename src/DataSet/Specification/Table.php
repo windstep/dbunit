@@ -8,11 +8,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\DataSet\Specification;
+namespace PHPUnit\DbUnit\DataSet\Specification;
 
-use Windstep\DbUnit\Database\DefaultConnection;
-use Windstep\DbUnit\DatabaseListConsumer;
-use Windstep\DbUnit\DataSet\IDataSet;
+use PHPUnit\DbUnit\Database\DefaultConnection;
+use PHPUnit\DbUnit\DatabaseListConsumer;
+use PHPUnit\DbUnit\DataSet\IDataSet;
 use ReflectionClass;
 
 /**

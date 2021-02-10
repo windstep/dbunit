@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\DataSet;
+namespace PHPUnit\DbUnit\DataSet;
 
-use Windstep\DbUnit\InvalidArgumentException;
+use PHPUnit\DbUnit\InvalidArgumentException;
 
 /**
  * A table decorator that allows filtering out table columns from results.

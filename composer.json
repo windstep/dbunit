@@ -1,5 +1,5 @@
 {
-    "name": "windstep/dbunit",
+    "name": "phpunit/dbunit",
     "description": "PHPUnit extension for database interaction testing",
     "type": "library",
     "keywords": [
@@ -7,7 +7,7 @@
         "testing",
         "xunit"
     ],
-    "homepage": "https://github.com/windstep/dbunit/",
+    "homepage": "https://github.com/sebastianbergmann/dbunit/",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -17,11 +17,11 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/windstep/dbunit/issues"
+        "issues": "https://github.com/sebastianbergmann/dbunit/issues"
     },
     "require": {
-        "php": "^7.4",
-        "phpunit/phpunit": "^8.0",
+        "php": "^7.1",
+        "phpunit/phpunit": "^7.0",
         "symfony/yaml": "^3.0 || ^4.0",
         "ext-pdo": "*",
         "ext-simplexml": "*"

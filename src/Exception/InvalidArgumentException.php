@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit;
+namespace PHPUnit\DbUnit;
 
 class InvalidArgumentException extends \InvalidArgumentException implements Exception
 {

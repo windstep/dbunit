@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\DataSet;
+namespace PHPUnit\DbUnit\DataSet;
 
 /**
  * Allows for replacing arbitrary strings in your data sets with other values.

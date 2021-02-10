@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\DataSet;
+namespace PHPUnit\DbUnit\DataSet;
 
 use PDO;
-use Windstep\DbUnit\Database\Connection;
+use PHPUnit\DbUnit\Database\Connection;
 
 /**
  * Provides the functionality to represent a database table.

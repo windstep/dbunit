@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Windstep\DbUnit\Database\Metadata;
+namespace PHPUnit\DbUnit\Database\Metadata;
 
 /**
  * Provides functionality to retrieve meta data from a Firebird database.
