@@ -4,3 +4,6 @@
 /build
 /vendor
 /tools
+phpunit.xml.dist
+docker-compose.yml
+.phpunit.result.cache
