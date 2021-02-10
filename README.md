@@ -1,4 +1,9 @@
-[This extension is no longer maintained](https://github.com/sebastianbergmann/dbunit/issues/217)
+Hello there!
+In my work, I have to use dbunit, cause we do have lots of tests using it. 
+So, I've done the job to update this extension to work with all new technologies, like phpunit 8 and higher.
+
+
+[Original extension is no longer maintained](https://github.com/sebastianbergmann/dbunit/issues/217)
 
 # DbUnit
 
