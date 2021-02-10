@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Constraint;
+namespace Windstep\DbUnit\Constraint;
 
 use PHPUnit\Framework\Constraint\Constraint;
 

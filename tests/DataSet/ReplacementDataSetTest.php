@@ -8,11 +8,11 @@
  * file that was distributed with this source code.
  */
 
-use PHPUnit\DbUnit\DataSet\DefaultDataSet;
-use PHPUnit\DbUnit\DataSet\DefaultTable;
-use PHPUnit\DbUnit\DataSet\DefaultTableMetadata;
-use PHPUnit\DbUnit\DataSet\ReplacementDataSet;
-use PHPUnit\DbUnit\TestCase;
+use Windstep\DbUnit\DataSet\DefaultDataSet;
+use Windstep\DbUnit\DataSet\DefaultTable;
+use Windstep\DbUnit\DataSet\DefaultTableMetadata;
+use Windstep\DbUnit\DataSet\ReplacementDataSet;
+use Windstep\DbUnit\TestCase;
 
 class Extensions_Database_DataSet_ReplacementDataSetTest extends \PHPUnit\Framework\TestCase
 {

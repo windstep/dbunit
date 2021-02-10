@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\DataSet;
+namespace Windstep\DbUnit\DataSet;
 
-use PHPUnit\DbUnit\RuntimeException;
+use Windstep\DbUnit\RuntimeException;
 
 /**
  * Data set implementation for the output of mysqldump --xml.

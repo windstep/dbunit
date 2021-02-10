@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-use PHPUnit\DbUnit\Database\DefaultConnection;
-use PHPUnit\DbUnit\DataSet\DefaultTable;
-use PHPUnit\DbUnit\DataSet\DefaultTableMetadata;
-use PHPUnit\DbUnit\DataSet\QueryTable;
+use Windstep\DbUnit\Database\DefaultConnection;
+use Windstep\DbUnit\DataSet\DefaultTable;
+use Windstep\DbUnit\DataSet\DefaultTableMetadata;
+use Windstep\DbUnit\DataSet\QueryTable;
 use PHPUnit\Framework\TestCase;
 
 class Extensions_Database_DataSet_QueryTableTest extends TestCase

@@ -7,21 +7,26 @@
         "testing",
         "xunit"
     ],
-    "homepage": "https://github.com/sebastianbergmann/dbunit/",
+    "homepage": "https://github.com/windstep/dbunit/",
     "license": "BSD-3-Clause",
     "authors": [
         {
+            "name": "Sergey Popov",
+            "email": "icq431@yandex.ru",
+            "role": "current maintainer"
+        },
+        {
             "name": "Sebastian Bergmann",
             "email": "sebastian@phpunit.de",
-            "role": "lead"
+            "role": "original author"
         }
     ],
     "support": {
-        "issues": "https://github.com/sebastianbergmann/dbunit/issues"
+        "issues": "https://github.com/windstep/dbunit/issues"
     },
     "require": {
-        "php": "^7.1",
-        "phpunit/phpunit": "^7.0",
+        "php": "^7.4",
+        "phpunit/phpunit": "^8.0",
         "symfony/yaml": "^3.0 || ^4.0",
         "ext-pdo": "*",
         "ext-simplexml": "*"

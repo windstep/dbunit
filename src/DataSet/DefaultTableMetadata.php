@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\DataSet;
+namespace Windstep\DbUnit\DataSet;
 
-use PHPUnit\DbUnit\InvalidArgumentException;
+use Windstep\DbUnit\InvalidArgumentException;
 
 /**
  * The default implementation of table meta data

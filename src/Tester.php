@@ -8,11 +8,11 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit;
+namespace Windstep\DbUnit;
 
-use PHPUnit\DbUnit\Database\Connection;
-use PHPUnit\DbUnit\DataSet\IDataSet;
-use PHPUnit\DbUnit\Operation\Operation;
+use Windstep\DbUnit\Database\Connection;
+use Windstep\DbUnit\DataSet\IDataSet;
+use Windstep\DbUnit\Operation\Operation;
 
 /**
  * This is the interface for DatabaseTester objects. These objects are used to

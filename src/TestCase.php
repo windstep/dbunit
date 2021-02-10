@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit;
+namespace Windstep\DbUnit;
 
 /**
  * A TestCase extension that provides functionality for testing and asserting

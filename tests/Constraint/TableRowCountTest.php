@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-use PHPUnit\DbUnit\Constraint\TableRowCount;
+use Windstep\DbUnit\Constraint\TableRowCount;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 

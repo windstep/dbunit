@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Operation;
+namespace Windstep\DbUnit\Operation;
 
-use PHPUnit\DbUnit\DataSet\ITable;
-use PHPUnit\DbUnit\RuntimeException;
+use Windstep\DbUnit\DataSet\ITable;
+use Windstep\DbUnit\RuntimeException;
 
 /**
  * Thrown for exceptions encountered with database operations. Provides

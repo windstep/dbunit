@@ -8,13 +8,13 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Operation;
+namespace Windstep\DbUnit\Operation;
 
 use PDO;
 use PDOException;
-use PHPUnit\DbUnit\Database\Connection;
-use PHPUnit\DbUnit\DataSet\IDataSet;
-use PHPUnit\DbUnit\DataSet\ITable;
+use Windstep\DbUnit\Database\Connection;
+use Windstep\DbUnit\DataSet\IDataSet;
+use Windstep\DbUnit\DataSet\ITable;
 
 /**
  * Executes a truncate against all tables in a dataset.
