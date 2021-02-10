@@ -8,12 +8,12 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Operation;
+namespace Windstep\DbUnit\Operation;
 
-use PHPUnit\DbUnit\Database\Connection;
-use PHPUnit\DbUnit\DataSet\IDataSet;
-use PHPUnit\DbUnit\DataSet\ITable;
-use PHPUnit\DbUnit\DataSet\ITableMetadata;
+use Windstep\DbUnit\Database\Connection;
+use Windstep\DbUnit\DataSet\IDataSet;
+use Windstep\DbUnit\DataSet\ITable;
+use Windstep\DbUnit\DataSet\ITableMetadata;
 
 /**
  * Updates the rows in a given dataset using primary key columns.

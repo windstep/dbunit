@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Constraint;
+namespace Windstep\DbUnit\Constraint;
 
-use PHPUnit\Framework\Constraint\Constraint;
+use Windstep\Framework\Constraint\Constraint;
 
 /**
  * Asserts the row count in a table

@@ -8,11 +8,11 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Constraint;
+namespace Windstep\DbUnit\Constraint;
 
-use PHPUnit\DbUnit\DataSet\IDataSet;
-use PHPUnit\DbUnit\InvalidArgumentException;
-use PHPUnit\Framework\Constraint\Constraint;
+use Windstep\DbUnit\DataSet\IDataSet;
+use Windstep\DbUnit\InvalidArgumentException;
+use Windstep\Framework\Constraint\Constraint;
 
 /**
  * Asserts whether or not two dbunit datasets are equal.

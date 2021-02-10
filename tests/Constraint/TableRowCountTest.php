@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-use PHPUnit\DbUnit\Constraint\TableRowCount;
-use PHPUnit\Framework\ExpectationFailedException;
-use PHPUnit\Framework\TestCase;
+use Windstep\DbUnit\Constraint\TableRowCount;
+use Windstep\Framework\ExpectationFailedException;
+use Windstep\Framework\TestCase;
 
 class Extensions_Database_Constraint_TableRowCountTest extends TestCase
 {

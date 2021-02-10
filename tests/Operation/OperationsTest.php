@@ -8,18 +8,18 @@
  * file that was distributed with this source code.
  */
 
-use PHPUnit\DbUnit\Database\DefaultConnection;
-use PHPUnit\DbUnit\DataSet\DefaultDataSet;
-use PHPUnit\DbUnit\DataSet\DefaultTable;
-use PHPUnit\DbUnit\DataSet\DefaultTableMetadata;
-use PHPUnit\DbUnit\DataSet\FlatXmlDataSet;
-use PHPUnit\DbUnit\Operation\Delete;
-use PHPUnit\DbUnit\Operation\DeleteAll;
-use PHPUnit\DbUnit\Operation\Insert;
-use PHPUnit\DbUnit\Operation\Replace;
-use PHPUnit\DbUnit\Operation\Truncate;
-use PHPUnit\DbUnit\Operation\Update;
-use PHPUnit\DbUnit\TestCase;
+use Windstep\DbUnit\Database\DefaultConnection;
+use Windstep\DbUnit\DataSet\DefaultDataSet;
+use Windstep\DbUnit\DataSet\DefaultTable;
+use Windstep\DbUnit\DataSet\DefaultTableMetadata;
+use Windstep\DbUnit\DataSet\FlatXmlDataSet;
+use Windstep\DbUnit\Operation\Delete;
+use Windstep\DbUnit\Operation\DeleteAll;
+use Windstep\DbUnit\Operation\Insert;
+use Windstep\DbUnit\Operation\Replace;
+use Windstep\DbUnit\Operation\Truncate;
+use Windstep\DbUnit\Operation\Update;
+use Windstep\DbUnit\TestCase;
 
 require_once \dirname(__DIR__) . DIRECTORY_SEPARATOR . '_files' . DIRECTORY_SEPARATOR . 'DatabaseTestUtility.php';
 

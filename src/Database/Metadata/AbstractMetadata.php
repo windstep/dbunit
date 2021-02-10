@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Database\Metadata;
+namespace Windstep\DbUnit\Database\Metadata;
 
 use PDO;
-use PHPUnit\DbUnit\RuntimeException;
+use Windstep\DbUnit\RuntimeException;
 use ReflectionClass;
 
 /**

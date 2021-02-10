@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Database\Metadata;
+namespace Windstep\DbUnit\Database\Metadata;
 
 /**
  * Provides a basic interface for retreiving metadata from a database.

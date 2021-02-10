@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-use PHPUnit\DbUnit\Constraint\DataSetIsEqual;
-use PHPUnit\DbUnit\DataSet\Filter;
-use PHPUnit\DbUnit\DataSet\FlatXmlDataSet;
-use PHPUnit\Framework\TestCase;
+use Windstep\DbUnit\Constraint\DataSetIsEqual;
+use Windstep\DbUnit\DataSet\Filter;
+use Windstep\DbUnit\DataSet\FlatXmlDataSet;
+use Windstep\Framework\TestCase;
 
 class Extensions_Database_DataSet_FilterTest extends TestCase
 {

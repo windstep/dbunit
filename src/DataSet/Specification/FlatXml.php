@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\DataSet\Specification;
+namespace Windstep\DbUnit\DataSet\Specification;
 
-use PHPUnit\DbUnit\DataSet\FlatXmlDataSet;
+use Windstep\DbUnit\DataSet\FlatXmlDataSet;
 
 /**
  * Creates a FlatXML dataset based off of a spec string.

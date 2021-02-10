@@ -8,11 +8,11 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Database;
+namespace Windstep\DbUnit\Database;
 
 use PDO;
-use PHPUnit\DbUnit\DataSet\AbstractTable;
-use PHPUnit\DbUnit\DataSet\ITableMetadata;
+use Windstep\DbUnit\DataSet\AbstractTable;
+use Windstep\DbUnit\DataSet\ITableMetadata;
 
 /**
  * Provides the functionality to represent a database table.

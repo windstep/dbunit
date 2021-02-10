@@ -8,13 +8,13 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Database;
+namespace Windstep\DbUnit\Database;
 
-use PHPUnit\DbUnit\DataSet\AbstractDataSet;
-use PHPUnit\DbUnit\DataSet\DefaultTableMetadata;
-use PHPUnit\DbUnit\DataSet\ITableMetadata;
-use PHPUnit\DbUnit\InvalidArgumentException;
-use PHPUnit\DbUnit\RuntimeException;
+use Windstep\DbUnit\DataSet\AbstractDataSet;
+use Windstep\DbUnit\DataSet\DefaultTableMetadata;
+use Windstep\DbUnit\DataSet\ITableMetadata;
+use Windstep\DbUnit\InvalidArgumentException;
+use Windstep\DbUnit\RuntimeException;
 
 /**
  * Provides access to a database instance as a data set.

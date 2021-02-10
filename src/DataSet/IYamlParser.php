@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\DataSet;
+namespace Windstep\DbUnit\DataSet;
 
 /**
  * An interface for parsing YAML files.

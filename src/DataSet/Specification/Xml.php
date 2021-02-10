@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\DataSet\Specification;
+namespace Windstep\DbUnit\DataSet\Specification;
 
-use PHPUnit\DbUnit\DataSet\XmlDataSet;
+use Windstep\DbUnit\DataSet\XmlDataSet;
 
 /**
  * Creates a XML dataset based off of a spec string.

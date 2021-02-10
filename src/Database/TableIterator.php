@@ -8,11 +8,11 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Database;
+namespace Windstep\DbUnit\Database;
 
-use PHPUnit\DbUnit\DataSet\ITable;
-use PHPUnit\DbUnit\DataSet\ITableIterator;
-use PHPUnit\DbUnit\DataSet\ITableMetadata;
+use Windstep\DbUnit\DataSet\ITable;
+use Windstep\DbUnit\DataSet\ITableIterator;
+use Windstep\DbUnit\DataSet\ITableMetadata;
 
 /**
  * Provides iterative access to tables from a database instance.

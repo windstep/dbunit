@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPUnit\DbUnit\Operation;
+namespace Windstep\DbUnit\Operation;
 
-use PHPUnit\DbUnit\Database\Connection;
-use PHPUnit\DbUnit\DataSet\IDataSet;
+use Windstep\DbUnit\Database\Connection;
+use Windstep\DbUnit\DataSet\IDataSet;
 
 /**
  * This class represents a null database operation.

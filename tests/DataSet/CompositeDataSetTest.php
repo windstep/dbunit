@@ -8,13 +8,13 @@
  * file that was distributed with this source code.
  */
 
-use PHPUnit\DbUnit\DataSet\CompositeDataSet;
-use PHPUnit\DbUnit\DataSet\DefaultDataSet;
-use PHPUnit\DbUnit\DataSet\DefaultTable;
-use PHPUnit\DbUnit\DataSet\DefaultTableMetadata;
-use PHPUnit\DbUnit\TestCase;
+use Windstep\DbUnit\DataSet\CompositeDataSet;
+use Windstep\DbUnit\DataSet\DefaultDataSet;
+use Windstep\DbUnit\DataSet\DefaultTable;
+use Windstep\DbUnit\DataSet\DefaultTableMetadata;
+use Windstep\DbUnit\TestCase;
 
-class Extensions_Database_DataSet_CompositeDataSetTest extends \PHPUnit\Framework\TestCase
+class Extensions_Database_DataSet_CompositeDataSetTest extends \Windstep\Framework\TestCase
 {
     protected $expectedDataSet1;
     protected $expectedDataSet2;
